@@ -1,5 +1,5 @@
 body {
-  background: rgba(20, 5, 5, 1);
+  background: gray;
   height: 100vh;
   overflow: hidden;
   display: flex;

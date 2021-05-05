@@ -1,8 +1,16 @@
 import React from 'react';
-import Cracked from 'app/components/Animation/Cracked';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
+import ResultBody from '../components/ResultBody';
 
-import './Landing.css';
-
-const Landing = () => <Cracked>netflix-movie</Cracked>;
+const Landing = () => {
+  return (
+    <div>
+      <Header />
+      <ResultBody />
+      <Footer />
+    </div>
+  );
+};
 
 export default Landing;
