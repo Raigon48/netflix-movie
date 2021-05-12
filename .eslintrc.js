@@ -25,4 +25,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react', 'jsx-a11y', 'import', 'jest'],
+  rules: {
+    'linebreak-style': 0,
+  },
 };
