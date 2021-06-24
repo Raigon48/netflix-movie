@@ -1,0 +1,43 @@
+.movie {
+  margin: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-items: center;
+}
+
+.movie-poster {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-poster img {
+  width: 100%;
+  height: fit-content;
+}
+
+.movie-detail-col-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.movie-detail-col-1 p {
+  margin-top : 4px;
+  margin-bottom : 0;
+  color : whitesmoke;
+}
+
+.movie-detail-col-2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.movie-detail-col-2 p {
+  margin-top : 10px;
+  color: #43a047;
+  font-size: 0.8rem;
+}

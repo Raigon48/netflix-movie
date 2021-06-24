@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+}
+
+.header-title {
+  color : red;
+  font-weight: 900;
+  margin-top : 0;
+  padding-left : 10px;
+  padding-top : 10px;
+}
+
+.header-title-span {
+  font-weight : 500;
+}

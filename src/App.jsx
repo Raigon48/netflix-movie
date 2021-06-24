@@ -1,17 +1,14 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 
-import 'app/theme';
+import './App.css';
 
-import Loading from 'app/components/Loading';
 import AppRoutes from 'app/routes/AppRoutes';
 
 const App = () => (
-  <Suspense fallback={<Loading />}>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <AppRoutes />
-    </BrowserRouter>
-  </Suspense>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <AppRoutes />
+  </BrowserRouter>
 );
 
 export default App;

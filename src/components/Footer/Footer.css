@@ -1,0 +1,17 @@
+.footer {
+    text-align: center;
+    background-color: #272729;
+    min-height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.footer-title {
+    color: red;
+    padding-top: 0.4rem;
+}
+
+.footer-title-bold {
+    font-weight: 900;
+}
